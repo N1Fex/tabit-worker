@@ -1,0 +1,18 @@
+[project]
+name = "tabit-worker"
+version = "0.1.0"
+description = "Monophonic audio to guitar tablature MusicXML converter"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "librosa",
+    "basic-pitch",
+    "onnxruntime",
+    "minio",
+    "pika",
+    "python-dotenv",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

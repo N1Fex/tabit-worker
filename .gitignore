@@ -1,0 +1,8 @@
+*.env
+.venv
+.idea
+
+*.mp3
+*.musicxml
+
+tools
